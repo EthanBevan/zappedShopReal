@@ -7,6 +7,41 @@
 
 {% endcomment %}
 
+{% comment %}
+
+To have an upsell product?!??? below
+
+{% endcomment %}
+<!--
+{%- unless settings.upsell_trigger_product == blank or settings.upsell_target_product == blank -%}
+{%- assign has_trigger_product = false -%}
+{%- assgin has_target_product = false -%}
+
+{%- for item in cart.items -%}
+{%- if item.product == settings.upsell_trigger_product -%}
+  {%- assign has_trigger_product = true -%}
+{%- endif -%}
+
+
+{%- if item.product == settings.upsell_target_product -%}
+  {%- assign has_target_product = true -%}
+{%- endif -%}
+{%- endfor -%}
+
+{%- if has_trigger_product and !has_target_product -%}
+<p>
+  Why not <a href="{{ settings.upsell_target_product.url }}"> and a {{ settings.upsell_target_product.title }}?
+  </a>
+</p>
+{%- endif -%}
+{%- endunless -%} -->
+
+
+
+
+
+
+
 {% assign shipping_value = 7500 %}
 {% assign cart_total = cart.total_price %}
 {% assign shipping_value_left = shipping_value | minus: cart_total %}
