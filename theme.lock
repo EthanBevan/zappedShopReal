@@ -102,7 +102,7 @@ sections/password-header.liquid:
 sections/product-template.liquid:
   development: 2018-05-12T13:46:35+10:00   ce3f808c491f13314f8dc78a3ba62cc7
 sections/slideshow.liquid:
-  development: 2018-05-14T09:38:09+10:00   9c233d64346c7391658ac101522f8199
+  development: 2018-05-14T10:34:08+10:00   9c233d64346c7391658ac101522f8199
 snippets/ajax-cart-template.liquid:
   development: 2018-05-12T13:46:39+10:00   a12ad20ccc9ef7b2516fe7941c51dba8
 snippets/bgset.liquid:
