@@ -32,7 +32,7 @@ assets/password-page-background.jpg:
 assets/theme.js.liquid:
   development: 2018-05-12T13:46:37+10:00   a0ed39cd2df7d5cdfb2e1c187b7c743f
 assets/theme.scss.liquid:
-  development: 2018-05-12T19:24:24+10:00   2a9404b1fd5ed4d13639f8dab82810ee
+  development: 2018-05-14T13:12:09+10:00   d28243f4b1dd83f78a6cc8ef3000d820
 assets/timber.scss.liquid:
   development: 2018-05-12T13:46:38+10:00   033570a7c281995bf2dc661663ac43d7
 config/settings_data.json:
@@ -42,7 +42,7 @@ config/settings_schema.json:
 layout/password.liquid:
   development: 2018-05-12T13:46:38+10:00   e3df81a186a3aaf1710cfc32ef51a558
 layout/theme.liquid:
-  development: 2018-05-12T13:46:38+10:00   9672a8d779273c6e0926d4141d9ccd5b
+  development: 2018-05-14T12:45:28+10:00   8d7d4a853d41f2fb1ed5be4170609683
 locales/de.json:
   development: 2018-05-12T13:46:38+10:00   09cf9a7ff0052d8691dfff54ced866c5
 locales/en.default.json:
@@ -88,7 +88,7 @@ sections/featured-video.liquid:
 sections/footer.liquid:
   development: 2018-05-12T13:46:34+10:00   d13d6c36f914c27236e4b2c63a9e62ba
 sections/header.liquid:
-  development: 2018-05-12T13:46:34+10:00   957ccecbac2d8fcd414c61622c9468ff
+  development: 2018-05-14T12:37:01+10:00   957ccecbac2d8fcd414c61622c9468ff
 sections/list-collections-template.liquid:
   development: 2018-05-12T13:46:34+10:00   cc519f30f6bced273d6c82201bb79c40
 sections/map.liquid:
@@ -102,7 +102,7 @@ sections/password-header.liquid:
 sections/product-template.liquid:
   development: 2018-05-12T13:46:35+10:00   ce3f808c491f13314f8dc78a3ba62cc7
 sections/slideshow.liquid:
-  development: 2018-05-14T10:34:08+10:00   9c233d64346c7391658ac101522f8199
+  development: 2018-05-14T12:45:31+10:00   2072d65704b1020ff8c94c6c0160e620
 snippets/ajax-cart-template.liquid:
   development: 2018-05-12T13:46:39+10:00   a12ad20ccc9ef7b2516fe7941c51dba8
 snippets/bgset.liquid:
