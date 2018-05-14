@@ -1,0 +1,30 @@
+<div class="section-cta">
+  <a href="{{ section.settings.link }}" class="btn-animated">
+    <div class="btn-content">{{ section.settings.linktext }}</div>
+  </a>
+</div>
+
+{% schema %}
+{
+  "name": "Call to action",
+  "settings": [
+  {
+    "id": "link",
+    "type": "url",
+    "label": "Button link"
+  },
+  {
+    "id": "linktext",
+    "type": "text",
+    "label": "Button text",
+    "default": "Click Here"
+  }
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
